@@ -11,12 +11,12 @@ wpjvJAM{jhlzhy_k3jy9wa3k_lh60l00i}
 I put it in the cipher identified and finally understood that it may be ceaser cipher. When i decoded it with ceaser cipher. It gave me the final flag.
 
 ```bash
-bhaskar@Awareness:~/Desktop/hack$ cat enc_flag
+:~/Desktop/hack$ cat enc_flag
 YidkM0JxZGtwQlRYdHFhR3g2YUhsZmF6TnFlVGwzWVROclgyeG9OakJzTURCcGZRPT0nCg==
-bhaskar@Awareness:~/Desktop/hack$ ^C
-bhaskar@Awareness:~/Desktop/hack$ echo 'YidkM0JxZGtwQlRYdHFhR3g2YUhsZmF6TnFlVGwzWVROclgyeG9OakJzTURCcGZRPT0nCg==' |base64 --decode
+:~/Desktop/hack$ ^C
+:~/Desktop/hack$ echo 'YidkM0JxZGtwQlRYdHFhR3g2YUhsZmF6TnFlVGwzWVROclgyeG9OakJzTURCcGZRPT0nCg==' |base64 --decode
 b'd3BqdkpBTXtqaGx6aHlfazNqeTl3YTNrX2xoNjBsMDBpfQ=='
-bhaskar@Awareness:~/Desktop/hack$ echo 'd3BqdkpBTXtqaGx6aHlfazNqeTl3YTNrX2xoNjBsMDBpfQ==' |base64 --decode
+:~/Desktop/hack$ echo 'd3BqdkpBTXtqaGx6aHlfazNqeTl3YTNrX2xoNjBsMDBpfQ==' |base64 --decode
 wpjvJAM{jhlzhy_k3jy9wa3k_lh60l00i}
 ```
 
