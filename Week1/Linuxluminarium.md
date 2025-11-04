@@ -285,7 +285,7 @@ pwn.college{UqkG_GAnPijTXWitMAPg9la0K7t.QXzMDO0wCMxYzNyEzW}
 ```
 
 ### New Learnings
-I learnt how to copy of the program to the file.
+I learnt how to make a copy of the program to the file.
 
 ### References 
 None
