@@ -6,11 +6,11 @@ Base64 cipher can be identified if a encoded message ends with == (or) =. It als
 ## How to encrypt your message using base64:
 We use this command to encrypt
 ```bash
-bhaskar@Awareness:~$ echo 'Hello World' |base64 
+:~$ echo 'Hello World' |base64 
 SGVsbG8gV29ybGQK
-bhaskar@Awareness:~$ echo 'SGVsbG8gV29ybGQK' | base64 --decode
+:~$ echo 'SGVsbG8gV29ybGQK' | base64 --decode
 Hello World
-bhaskar@Awareness:~$ 
+:~$ 
 ```
 This is how we encrypt and decrypt using the terminal.
 
